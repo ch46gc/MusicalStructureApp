@@ -1,7 +1,5 @@
 <resources>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android.windowActionBar">false</item>
-    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
     <style name= "Theme" parent="AppTheme">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
