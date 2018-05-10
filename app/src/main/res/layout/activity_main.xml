@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:fontFamily="sans-serif-light"
+    android:paddingBottom="15dp"
+    android:paddingTop="8dp">
+
+
+    <ImageView
+        android:id="@+id/ajr_music"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClick"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ajr"
+        android:padding= "8dp" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/baseline_play_circle_filled_white_white_18" />
+
+    <ImageView
+        android:id="@+id/bebe_rexha_music"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ajr_music"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bebe_rexha"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/baseline_play_circle_filled_white_white_18" />
+   <ImageView
+        android:id="@+id/bts_music"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/bts_face_yourself"
+        android:padding="8dp"
+        android:layout_below="@+id/bebe_rexha_music"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/ic_play_arrow_black_24dp" />
+
+
+    <ImageView
+        android:id="@+id/pink_music"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bts_music"
+        android:padding="8dp"
+        android:src="@drawable/pink_beautiful_trauma"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="458dp"
+        android:src="@drawable/ic_play_arrow_black_24dp" />
+    </RelativeLayout>
+    </ScrollView>
