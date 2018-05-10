@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
     android:background="@color/background_color"
     android:minHeight="@dimen/list_item_height"
-    android:padding="16dp" >
-
-<ImageView
-    android:id="@+id/image"
-    android:layout_width="@dimen/list_item_height"
-    android:layout_height="@dimen/list_item_height" />
-
+    android:orientation="horizontal"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:contentDescription="@string/image"/>
     <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingLeft="16dp">
-
+        android:paddingLeft="@dimen/padding_top"
+        android:paddingStart="@dimen/padding_top"
+        android:paddingRight="@dimen/padding_top">
         <TextView
             android:id="@+id/song_name"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/layout_height_3"
             android:layout_weight="1"
             android:gravity="bottom"
             android:textColor="@color/color_black"
-            android:textSize="14sp"
+            android:textSize="@dimen/text_size"
             android:textStyle="bold" />
-
         <TextView
             android:id="@+id/artist_name"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/layout_height_3"
             android:layout_weight="1"
             android:gravity="top"
             android:textColor="@color/color_black"
-            android:textSize="14sp"
+            android:textSize="@dimen/text_size"
             android:textStyle="bold" />
-
         <ImageView
-            android:layout_width="220dp"
-            android:layout_height="24dp"
+            android:id="@+id/play"
+            android:layout_width="@dimen/layout_width_3"
+            android:layout_height="@dimen/layout_height_2"
             android:layout_alignParentRight="true"
-
             android:layout_centerVertical="true"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginEnd="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
             android:scaleType="fitEnd"
             android:src="@drawable/ic_play_arrow_black_24dp" />
     </LinearLayout>
-
 </LinearLayout>
